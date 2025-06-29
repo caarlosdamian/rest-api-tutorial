@@ -1,0 +1,19 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"ESTO ES UN TEST\" && exit 1",
+    "dev": "node --watch --env-file=.env ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
