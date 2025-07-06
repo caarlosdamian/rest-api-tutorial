@@ -5,7 +5,7 @@ export const getAllTodos = () => {
 };
 
 export const createTodo = (body) => {
-  return Task.create(body, { new: true });
+  return Task.create(body);
 };
 
 export const getTodo = (id) => {
